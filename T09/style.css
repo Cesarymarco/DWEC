@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#map {
+    height: 400px;
+    margin-top: 10px;
+}
+
+.coords {
+    margin-bottom: 10px;
+}
+
+canvas {
+    border: 1px solid black;
+    margin-top: 10px;
+}

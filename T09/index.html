@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Práctica UT9 - APIs</title>
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Práctica UT9 - Mapas y APIs</h1>
+
+    <div class="coords">
+        <label>Latitud:
+            <input type="text" id="lat" readonly>
+        </label>
+
+        <label>Longitud:
+            <input type="text" id="lng" readonly>
+        </label>
+    </div>
+
+    <div id="map"></div>
+
+    <h2>Representación en Canvas</h2>
+    <canvas id="canvas" width="500" height="300"></canvas>
+
+    <!-- Leaflet -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
